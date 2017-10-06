@@ -1,0 +1,101 @@
+.general__sixth{
+    width: 100%;
+    height: 530px;
+    background-image: url("../images/wallpaper3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.sixth__content__left{
+    float: left;
+    margin-left: 13%;
+    margin-top: 140px;
+    height: 300px;
+    width: 300px;
+}
+
+.sixth__content__left__image{
+    height: 250px;
+    width: 250px;
+    background-color: $background-blue;
+    -webkit-box-shadow: 25px -25px 0px 0px rgba(127,100,181,1);
+    -moz-box-shadow: 25px -25px 0px 0px rgba(127,100,181,1);
+    box-shadow: 25px -25px 0px 0px rgba(127,100,181,1);
+}
+
+.sixth__content__left__title{
+    font-size:12px;
+    color: $text-white;
+    float: left;
+    margin-left: 28px;
+    margin-top: -45px;
+}
+
+.sixth__content__left__text1{
+    float: right;
+    margin-right: 120px;
+    margin-top: -215px;
+    color: $text-white;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.sixth__content__left__text2{
+    float: right;
+    color: $text-white;
+    font-size: 60px;
+    margin-right: 130px;
+    margin-top: -180px;
+    font-weight: 300;
+}
+
+.sixth__content__left__text3{
+    float: right;
+    margin-right: 160px;
+    margin-top: -90px;
+    color: $text-white;
+    font-size: 12px;
+}
+
+.sixth__content__left__text4{
+    float: right;
+    margin-right: 140px;
+    margin-top: -50px;
+    color: $text-white;
+    font-size: 12px;
+}
+
+.sixth__content__left__dots{
+    height: 60px;
+    width: 60px;
+    background-image: url("../images/dots2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 150px;
+    margin-left: -27.5px;
+
+    float:left;
+}
+
+.sixth__content__right{
+    float: right;
+    margin-top: 160px;
+    margin-right: 28%;
+    color: $text-white;
+}
+
+.sixth__content__right__title{
+    font-size: 50px;
+    line-height: 1.1;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+
+.sixth__content__right__text1{
+    font-size: 12px;
+    line-height: 1.5;
+    padding-bottom: 35px;
+}
+

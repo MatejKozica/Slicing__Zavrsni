@@ -1,0 +1,111 @@
+.general__third{
+    width: 100%;
+    height: 530px;
+    background-color: $background-lightgray1;
+}
+
+.third__content__left{
+    float:left;
+    height: 380px;
+    width: 403px;
+    margin-top: 82px;
+    margin-left: 13%;
+    color: $text-white;
+}
+
+.third__content__left__image{
+    height: 366px;
+    width: 318px;
+    background-image: url("../images/bubble-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    float: right;
+    margin-right: 76px;
+}
+
+.third__content__left__dots{
+    height: 74px;
+    width: 74px;
+    background-image: url("../images/dots.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: -50px;
+
+    float:left;
+}
+
+.third__content__left__bubble{ //pokusa san pomocu ::after dodat ovaj rog sa strane, ali nisam uspia pa sam ostavia ovako, a glupo mi je cili bubble uzet ka sliku
+    width: 260px;
+    height: 60px;
+    float: right;
+    font-size: 12px;
+    padding-top: 13px;
+    padding-left: 25px;
+    background-color: $background-lightgray2;
+    border-radius: 15px 15px 15px 0px;
+    margin-top: -330px;
+}
+
+.third__content__right{
+    float: right;
+    width: 340px;
+    margin-right: 25%;
+    margin-top: 110px;
+}
+
+.third__content__right__icon{
+    height: 40px;
+    width: 40px;
+    background-image: url("../images/headphones-button.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 15px;
+}
+
+.third__content__right__title{
+    font-size: 30px;
+    color: $text-darkgray;
+    margin-bottom: 10px;
+}
+
+.third__content__right__text{
+    font-size: 12px;
+    color: $text-lightgray;
+    line-height: 2;
+    text-align: justify;
+}
+
+.third__content__right__button{
+    height: 36px;
+    width: 125px;
+    margin-top: 15px;
+    font-size: 12px;
+    color: $text-blue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+   -webkit-box-shadow: 0px 5px 17px 0px rgba(0,0,0,0.49);
+    -moz-box-shadow: 0px 5px 17px 0px rgba(0,0,0,0.49);
+    box-shadow: 0px 5px 17px 0px rgba(0,0,0,0.49);
+}
+
+.third__content__right__button:hover{
+    background-color: $hover;
+}
+
+.third__content__interloper{
+    height: 400px;
+    width: 250px;
+    position: absolute;
+    margin-left: 81.5%;
+    margin-top: -200px;
+    background-image: url("../images/headphones.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-filter: drop-shadow(-30px 10px 25px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(-30px 10px 25px rgba(0, 0, 0, 0.5));  
+}
